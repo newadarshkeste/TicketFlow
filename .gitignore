@@ -1,0 +1,27 @@
+
+# Java / Gradle
+.gradle/
+**/build/
+*.class
+
+# React
+node_modules/
+dist/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
